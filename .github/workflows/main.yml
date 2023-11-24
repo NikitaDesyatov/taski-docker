@@ -176,7 +176,7 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
-        key: ${{ secrets.SSH_KEY }}
+        key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDPE7huPYPi/yPYQCT4h4gLh6yjYqcYiZzkxRETJz42YHEgsUmNMcWXRF9Mq/5WIVreT4rl9vhh1/GNM+RqPKKJLZ23HNIhaAJhISX78EtXrxkhSmyDJzALe1zpX5pB4gfAi/Q3z8FLN/VFhs2PFdVyOgx6zW+U0Z5LozqXvhfX8Cl47dqb74spujdLyHENvyu+br701ZYHrFDxHS5KLNjPlq7uad5GFfQrHyA+qoXKCKWTCWoIJ+tEVI/vKJNIpOZfBn/iXnKml3nQUnoo/y4ONma72biB71rkE/tiaSoy7dxcaZQZrC+pB5HOTPt1tOw2/J9mA+9FbpGlGt9/reFBvbffdgpNiRtkUG6SNqWbiy/ev1AVuJOUXN7eFPyDub+cv0aD3k6fA8dATE/FXVkJWy7d7YnhlwBc6ZzTGCMc0LKJJvHEu+4UZPO4OjaxigiNJJtxfvNzc50OiWzO3FGi8ZlqIdSw1ypaCsCy/amDxg5gmKcNODI1rPO9wR67bF0= yc-user@epdn77hbevcubj67p8ol
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
         # Параметр script передаёт в action appleboy/ssh-action команды,
         # которые нужно выполнить на сервере, 
